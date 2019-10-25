@@ -1,0 +1,181 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    background-color:lightgray;
+}
+
+.title-face {
+    background-color:#3b5998;
+    color:white;
+    height:80px;
+}
+
+.facebook {
+    position:relative;
+    left:200px; 
+    top:20px;
+    font-size:30pt;
+    color:white;
+}
+
+.face {
+    font-family:Impact, Charcoal, sans-serif;
+}
+
+#sing_in {
+    position:relative;
+    float:right;
+    right:470px;
+    bottom:30px;
+    width:140px;
+}
+
+.emailtele {
+    text-align:right;
+    position:relative;
+    right:500px;
+    bottom:35px;
+}
+
+.senha {
+    text-align:right;
+    position:relative;
+    bottom:52px;
+    right:273px;
+}
+
+#sing_in_senha {
+    position:relative;
+    float:right;
+    left:-170px;
+    bottom:48px;
+    width:140px;
+}
+
+.go_right {
+    position:relative;
+    left:70px;
+}
+
+#botao {
+    float:right;
+    position:relative;
+    left:35px;
+    bottom:48px;
+    background-color:#3b5998;
+    border:1px groove black;
+    color:white;
+    width:45px;
+    height:20px;
+
+}
+
+.esqueceu {
+    position:relative;
+    float:right;
+    bottom:40px;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+
+#face_texto {
+    color:#1D3C78;
+    font-size:20px;
+    font-family:arial;
+    margin:3%;
+    position: relative;
+    left:160px;
+}
+
+.going_down img{
+   position:relative;
+   left:210px;
+   bottom:40px;
+}
+
+h1 {
+    float:right;
+    position: relative;
+    bottom:320px;
+    font-family:arial;
+    font-size:27pt;
+    right:240pt;
+}
+
+.rapido {
+    float:right;
+    font-size:20px;
+    position:relative;
+    bottom:270px;
+    right:198px;
+}
+
+.esqueceu:hover {
+    text-decoration:underline;
+}
+#nome {
+    position:relative;
+    float:right;
+    bottom:232px;
+    width:160pt;
+    height:30px;
+    border-radius:5px;
+    border:2px groove lightblue;
+    font-size:18px;
+    right:5px;
+}
+
+#sobrenome {
+    position:relative;
+    float:right;
+    left:324pt;
+    bottom:174pt;
+    width:155pt;
+    height:30px;
+    border-radius:5px;
+    border:2px groove lightblue;
+    font-size:18px;
+}
+
+#email {
+    position:relative;
+    float:right;
+    left:482pt;
+    bottom:190px;
+    width:433px;
+    border-radius:5px;
+    height:30px;
+    border:2px groove lightblue;
+    font-size:18px;
+}
+
+#senha {
+    position:relative;
+    float:right;
+    right:23px;
+    bottom:136pt;
+    width:433px;
+    left:90px;
+    border-radius:5px;
+    font-size:18px;
+    height:30px;
+    border:2px groove lightblue;
+}
+
+.data-title {
+    border:none;
+    text-align:left;;
+    width:300px;
+    position:relative;
+    float:right;
+    left:29%;
+    bottom:92pt;
+    font-size:21px;
+    color:#636e72;
+}
