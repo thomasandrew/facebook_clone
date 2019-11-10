@@ -24,14 +24,11 @@ body {
     color:white;
 }
 
-.face {
-    font-family:Impact, Charcoal, sans-serif;
-    position:relative;
-    left:200px; 
-    top:20px;
-    font-size:30pt;
-    color:white;
-    width:200px;
+.face img{
+    width:800px;
+    margin:-9%;
+    position: relative;
+    right:23px;
 }
 
 #sign_in {
@@ -71,7 +68,7 @@ body {
     position:relative;
     left:35px;
     bottom:48px;
-    background-color:#3b5998;
+    background-color:#5b7bc0;
     border:1px solid #999;
     color:white;
     width:45px;
@@ -84,6 +81,9 @@ body {
     cursor: pointer;
 }
 
+#botao:hover{
+    background-color: #3b5998;
+}
 .esqueceu {
     position:relative;
     float:right;
@@ -253,7 +253,7 @@ h1 {
 .sign_button {
     background:linear-gradient(#67ae55,#578843);
     width:16%;
-    height:50px;
+    height:40px;
     border-radius:5px;
     color:white;
     font-size:20px;
@@ -261,7 +261,7 @@ h1 {
     margin:3%;
     float:right;
     position:relative;
-    bottom:20px;
+    bottom:5px;
     right:335px;
     outline: 0;
     cursor: pointer;
@@ -291,9 +291,20 @@ form {
     width:1321px;
 }
 
-pre {
+.sms {
     position:relative;
-    right:4px;
+    right:-280px;
+    font-size:13px;
+    color: #636e72;
+    top:25px;
+}
+
+.sms a {
+    color: #3b5998;
+}
+
+.sms a:hover {
+    text-decoration:underline;
 }
 
 #person {
@@ -301,5 +312,6 @@ pre {
 }
 
 .go_right {
-  
+    position: relative;
+    bottom:15px;
 }
