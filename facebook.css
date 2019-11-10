@@ -25,10 +25,11 @@ body {
 }
 
 .face img{
-    width:800px;
+    width:850px;
     margin:-9%;
     position: relative;
-    right:23px;
+    right:43px;
+    bottom:5px;
 }
 
 #sign_in {
@@ -84,10 +85,11 @@ body {
 #botao:hover{
     background-color: #3b5998;
 }
+
 .esqueceu {
     position:relative;
     float:right;
-    bottom:40px;
+    bottom:25px;
     opacity:0.6;
 }
 
@@ -202,7 +204,7 @@ h1 {
     float:right;
     position:absolute;
     left:940px;     
-    bottom:230px;
+    bottom:310px;
     width:200px;
     margin:-15%;
 }
@@ -234,7 +236,7 @@ h1 {
     font-size:19px;
 }
 
-.gender_type {
+#gender_type {
     float:right;
     position:relative;
     left:527px;
@@ -311,7 +313,20 @@ form {
     cursor: pointer;
 }
 
+#person2 {
+    cursor: pointer;
+}
+
 .go_right {
     position: relative;
-    bottom:15px;
+    bottom:30px;
+}
+
+hr {
+    position: relative;
+    top:95px;
+    left:735px;
+    width:400px;
+    opacity:0.2;
+    height:-1px;
 }

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="facebook.css">
+    <script src="facebook.js"></script>
 </head>
 <body>
 
@@ -18,7 +19,9 @@
 <div class="go_right">
 <p class="emailtele">Email ou telefone<br></p><input type="email" id ="sign_in"/>
 <p class="senha">Senha<br></p><input type="password" id ="sing_in_senha"/>
-<button id="botao">Log In</button><br>
+<input type="submit" value="Log In" id="botao"/>
+<p>
+</p>
 <div class="esqueceu"><a href="#">Esqueceu a conta?</a></div>
 </div>
 </div>
@@ -36,24 +39,25 @@
  <h1>Abra uma conta</h1>
  <p class="rapido">É rapido e fácil</p>  
 
-<form>
+<form name="form2">
    
- <input type="text" placeholder="Nome" id="nome"/> 
- <input type="text" placeholder="Sobrenome" id="sobrenome"/>
- <input type="email" placeholder="Celular ou email" id="email"/>
- <input type="password" placeholder="Nova senha" id="senha"/>
+ <input type="text" placeholder="Nome" id="nome" name="nome"/> 
+ <input type="text" placeholder="Sobrenome" id="sobrenome" name="sobrenome"/>
+ <input type="email" placeholder="Celular ou email" id="email" name="email"/>
+ <input type="password" placeholder="Nova senha" id="senha" name="senha"/>
  <p class="data-title">data de nascimento</p>
 
  <div class="sel">
 
  <select id="date-birth">
-    <option>1</option>
-    <option>2</option>  
-    <option>3</option>
-    <option>4</option>
-    <option>5</option>
-    <option>6</option>
-    <option>7</option> 
+    <option value = "Day">Day</option>
+    <option value = "1">1</option>
+    <option value = "2">2</option>  
+    <option value = "3">3</option>
+    <option value = "4">4</option>
+    <option value = "5">5</option>
+    <option value = "6">6</option>
+    <option value = "5">7</option> 
     <option>8</option>
     <option>9</option>
     <option>10</option>
@@ -81,6 +85,7 @@
  </select> 
 
  <select id="month-birth">
+ <option>Month</option>
  <option>Jan</option>
  <option>Feb</option>
  <option>Mar</option>
@@ -96,6 +101,7 @@
 </select>
 
 <select id="year-birth">
+   <option>Year</option>
    <option>2019</option>
    <option>2018</option>
    <option>2017</option>
@@ -146,11 +152,11 @@
 
 <p class="gender">Gender</p>
 
-<div class="gender_type">
+<div id="gender_type">
 
-<input type="radio" name="person" id="person"/>Female 
+<input type="radio" name="person" class="person"/>Female 
 &nbsp;
-<input type="radio" name="person" id="person"/>Male
+<input type="radio" name="person" class="person"/>Male
 
 </div>
 
@@ -160,7 +166,7 @@
 
 </div>
 
-<input type="submit" value="Sign Up" class="sign_button"/>
+<input type="button" value="Sign Up" class="sign_button" onclick="sign_now()"/>
 
 <hr>
 
