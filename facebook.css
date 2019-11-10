@@ -4,13 +4,16 @@
 }
 
 body {
-    background-color:lightgray;
+    background-color:rgb(225, 225, 225);
+    width:100%;
+    height:100%;
 }
 
 .title-face {
     background-color:#3b5998;
     color:white;
     height:80px;
+    position: relative;
 }
 
 .facebook {
@@ -23,14 +26,21 @@ body {
 
 .face {
     font-family:Impact, Charcoal, sans-serif;
+    position:relative;
+    left:200px; 
+    top:20px;
+    font-size:30pt;
+    color:white;
+    width:200px;
 }
 
-#sing_in {
+#sign_in {
     position:relative;
     float:right;
     right:470px;
     bottom:30px;
     width:140px;
+    outline: 0;
 }
 
 .emailtele {
@@ -53,11 +63,7 @@ body {
     left:-170px;
     bottom:48px;
     width:140px;
-}
-
-.go_right {
-    position:relative;
-    left:70px;
+    outline: 0;
 }
 
 #botao {
@@ -66,17 +72,23 @@ body {
     left:35px;
     bottom:48px;
     background-color:#3b5998;
-    border:1px groove black;
+    border:1px solid #999;
     color:white;
     width:45px;
     height:20px;
-
+    font-family:Arial, Helvetica, sans-serif;
+    outline: 0;
+    border-color:#8b9dc3 #2f477a #29447e #1a356e;
+    box-shadow:0 1px 0 rgba(0,0,0, .1);
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .esqueceu {
     position:relative;
     float:right;
     bottom:40px;
+    opacity:0.6;
 }
 
 a {
@@ -91,11 +103,12 @@ a {
     margin:3%;
     position: relative;
     left:160px;
+    width:500px;
 }
 
 .going_down img{
    position:relative;
-   left:210px;
+   left:203px;
    bottom:40px;
 }
 
@@ -119,6 +132,7 @@ h1 {
 .esqueceu:hover {
     text-decoration:underline;
 }
+
 #nome {
     position:relative;
     float:right;
@@ -129,6 +143,7 @@ h1 {
     border:2px groove lightblue;
     font-size:18px;
     right:5px;
+    outline: 0;
 }
 
 #sobrenome {
@@ -141,6 +156,7 @@ h1 {
     border-radius:5px;
     border:2px groove lightblue;
     font-size:18px;
+    outline: 0;
 }
 
 #email {
@@ -153,6 +169,7 @@ h1 {
     height:30px;
     border:2px groove lightblue;
     font-size:18px;
+    outline: 0;
 }
 
 #senha {
@@ -166,6 +183,7 @@ h1 {
     font-size:18px;
     height:30px;
     border:2px groove lightblue;
+    outline: 0;
 }
 
 .data-title {
@@ -174,8 +192,114 @@ h1 {
     width:300px;
     position:relative;
     float:right;
-    left:29%;
+    left:390px;
     bottom:92pt;
     font-size:21px;
     color:#636e72;
+}
+
+.sel {
+    float:right;
+    position:absolute;
+    left:940px;     
+    bottom:230px;
+    width:200px;
+    margin:-15%;
+}
+
+#date-birth {
+    width:40px;
+    height:25px;
+    outline: 0;
+}
+
+#month-birth {
+    height:25px;
+    width:38%;
+    outline: 0;
+}
+
+#year-birth {
+    height:25px;
+    outline: 0;
+}
+
+.gender {
+    float:right;
+    position:relative;
+    left:401px;
+    margin:-4%;
+    color:#636e72;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:19px;
+}
+
+.gender_type {
+    float:right;
+    position:relative;
+    left:527px;
+    margin:-1%;
+    bottom:10px;
+    font-size:20px;
+}
+
+#text_write {
+    float:right;
+    position:relative;
+    left:455px;
+    bottom:10px;
+}
+
+.sign_button {
+    background:linear-gradient(#67ae55,#578843);
+    width:16%;
+    height:50px;
+    border-radius:5px;
+    color:white;
+    font-size:20px;
+    border:none;
+    margin:3%;
+    float:right;
+    position:relative;
+    bottom:20px;
+    right:335px;
+    outline: 0;
+    cursor: pointer;
+}
+
+#blue-TEXT {
+    color:#3b5998;
+    text-align:right;
+    float:right;
+    margin:7%;
+    position:relative;
+    right:116px;
+    top:10px;
+}
+
+#WHITE-TEXT {
+    float:right;
+    margin:8%;
+    position:relative;
+    left:290pt;
+    bottom:4px;
+}
+
+form {
+    position: relative;
+    left:24px;
+    width:1321px;
+}
+
+pre {
+    position:relative;
+    right:4px;
+}
+
+#person {
+    cursor: pointer;
+}
+
+.go_right {
+  
 }
