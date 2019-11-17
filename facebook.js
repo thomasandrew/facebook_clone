@@ -6,7 +6,9 @@ function sign_now() {
     var Day = document.getElementById("date-birth");
     var month = document.getElementById("month-birth");
     var year = document.getElementById("year-birth");
-    var gender = document.getElementsByClassName("gender_type");
+    var gender = document.getElementById("gender_type");
+    var person1 = document.getElementById('person1');
+    var person2 = document.getElementById('person2');
 
     if (nome.value == "") {
         document.getElementById("nome").style.borderColor = 'red';
@@ -46,9 +48,8 @@ function sign_now() {
             break;
     }
     
-    //for (i=0;i<gender.length;i++) {
-    //    if (gender[i].value == "") {
-    //        document.getElementById("gender_type").style.borderColor = 'red';
-    //    }
-    //}
+    if (person1.checked == false && person2.checked == false) {
+        document.getElementById("gender_type").style.borderColor = 'red';
+    } 
+   
 }
