@@ -29,7 +29,7 @@ body {
     margin:-9%;
     position: relative;
     right:43px;
-    bottom:10px;
+    bottom:5px;
 }
 
 #sign_in {
@@ -322,11 +322,99 @@ form {
     bottom:30px;
 }
 
-hr {
+.be_white {
     position: relative;
     top:95px;
     left:735px;
     width:400px;
     opacity:0.2;
     height:-1px;
+}
+
+.linguas {
+    background-color: white;
+    position: absolute;
+    width: 1345px;
+    height: 160px;
+    bottom: -215px; 
+}
+
+li{
+    display: inline-block;
+    position: relative;
+    top:20pt;
+    font-size:12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 190px;
+}
+
+li a{
+    color: #3b5998;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#space {
+    position: relative;
+    left: 8px;
+}
+
+#space2{
+    position: relative;
+    left: 16px;
+}
+
+#space3{
+    position: relative;
+    left: 24px;
+}
+
+#space4 {
+    position: relative;
+    left: 32px;
+}
+
+#space5 {
+    position: relative;
+    left: 39px;
+    cursor: pointer;
+}
+
+#space6 {
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+}
+
+#space7 {
+    position: relative;
+    left: 62px;
+}
+
+#space8 {
+    position: relative;
+    left: 68px;
+}
+
+hr {
+    position: relative;
+    top:47px;
+    left:190px;
+    width:1000px;
+    opacity:0.4;
+    height:-1px;
+}
+
+button {
+    font-size:17px;
+    background-color:white;
+    width:30px;
+    border:1px groove;
+}
+
+button img {
+    width:11px;
+    height:11px;
 }
