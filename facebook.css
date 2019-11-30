@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color:rgb(225, 225, 225);
+    background: linear-gradient(white, #D3D8E8);
     width:100%;
     height:100%;
 }
@@ -279,6 +279,10 @@ h1 {
     top:10px;
 }
 
+#blue-TEXT:hover {
+    text-decoration: underline;    
+}
+
 #WHITE-TEXT {
     float:right;
     margin:8%;
@@ -343,7 +347,7 @@ li{
     display: inline-block;
     position: relative;
     top:20pt;
-    font-size:12px;
+    font-size:11px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     left: 190px;
 }
@@ -400,7 +404,7 @@ li a:hover {
 
 hr {
     position: relative;
-    top:47px;
+    top:13px;
     left:190px;
     width:1000px;
     opacity:0.4;
@@ -411,10 +415,48 @@ button {
     font-size:17px;
     background-color:white;
     width:30px;
-    border:1px groove;
+    border:1px groove #f1f2f6;
+    float: right;
+    margin-right: 520px;
+    margin-top:7px;
+    height: 22px;
+    outline: 0;
+}
+
+button:hover {
+    background: linear-gradient(#f5f6f7, #ccd0d5);
 }
 
 button img {
     width:11px;
     height:11px;
+}
+
+#some_links {
+    margin: 0 10px;
+    font-size: 11px;
+    margin-left: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#some_links2 {
+    margin: 0px 9px;
+    margin-left: -1px;
+    padding:3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#some_links3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 6px;
+    margin-left: 1px; 
+    padding: 1px;
+}
+
+.date_of_the_year {
+    color: #737373;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    margin-left: 193px;
 }
