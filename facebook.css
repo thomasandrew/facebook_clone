@@ -471,7 +471,6 @@ button img {
     top: 0;
     display: flex;
     justify-content: center;
-    display: none;
 }
 
 .modal_body {
@@ -515,6 +514,7 @@ button img {
     bottom: 12px;
     margin: 0 20px;
     right: 30px;
+    cursor: pointer;
 }
 
 .this_is_dashed {
@@ -524,6 +524,8 @@ button img {
 
 .idi1 {
     margin-left:-180px;
+    position: relative;
+    bottom: 15px;
 }
 
 .idi1 li {
@@ -541,4 +543,14 @@ button img {
     font-weight: bold;
     font-size: 11px;
     cursor: pointer;
+}
+
+.idi2 {
+    margin-top: -168px;
+}
+
+.idi2 li{
+    display: inherit;
+    margin-top: 10px; 
+    font-size: 11px;
 }
