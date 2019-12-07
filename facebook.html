@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="facebook.css">
-    <script src="facebook.js"></script>
+    <script src="facebook.js" async></script>
 </head>
 <body>
 
-<div class="go">
+<div id="go">
 
 
 <div class="title-face">    
@@ -192,7 +192,7 @@
     
 </ul>
 
-<button><img src="plus.png"></button>
+<button id="more_ling"><img src="plus.png"></button>
 
 <hr>
 
@@ -242,20 +242,47 @@
 
 </div>
 
+</div>
 
+<!-- Modal -->
 
+<div class="bg_modal">
+   <div class="modal_body">
+      <div class="selecione">
+         <p id="title_idioma_fix">Selecione o seu idioma</p>
+      </div>
+      <div class="idiomas_sugeridos">
+         <p class="idi">Idiomas sugeridos</p>
+      <div class="idi_fix">   
+         <ul class="idi_sugeridos">
+            <li><a>Português (Brasil)</a></li>
+            <li id="eng"><a>English (US)</a></li>
+            <li><a>Español</a></li>
+            <li><a>Français (France)</a></li>
+         </ul>
+      </div>
 
+      <div class="this_is_dashed"></div>
+      
+       <div class="idi1">
+          <ul>
+             <li class="black-color">Todos os idiomas</li>
+             <li><a href="#">África e Oriente Médio</a></li>
+             <li><a href="#">Américas</a></li>
+             <li><a href="#">Ásia-Pacífico</a></li>
+             <li><a href="#">Europa Oriental</a></li>
+             <li><a href="#">Europa Ocidental</a></li>
+          </ul>
+       </div>
 
+      </div>
 
-
-
-
-
-
-
-
+   </div>
 
 </div>
+
+
+
 
 </body>
 </html>

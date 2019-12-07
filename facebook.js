@@ -53,3 +53,18 @@ function sign_now() {
     } 
    
 }
+
+document.getElementById('more_ling').addEventListener('click', function() {
+  document.querySelector('.bg_modal').style.display = 'flex';
+});
+
+var modal_close = document.querySelector('.bg_modal');
+
+window.onclick = function(event) {
+    if (event.target == modal_close) {
+        modal_close.style.display = 'none';
+    }
+}
+
+ 
+

@@ -460,3 +460,85 @@ button img {
     margin-top: 40px;
     margin-left: 193px;
 }
+
+/* -- Modal -- */
+
+.bg_modal {
+    background-color: rgba(0,0,0,0.7);
+    width:100%;
+    height: 135%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.modal_body {
+    width: 780px;
+    height: 760px;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.selecione {
+    background-color: #3b5998;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 33px;
+    font-size: 15px;
+}
+
+#title_idioma_fix {
+    position: relative;
+    left: 13px;
+    top: 7px;
+}
+
+.idi {
+    position:absolute;
+    left: 294px;
+    bottom: 740px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #737373;
+}
+
+.idi_sugeridos li {
+    color: #3b5998;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+}
+
+.idi_sugeridos a {
+    position: relative;
+    bottom: 12px;
+    margin: 0 20px;
+    right: 30px;
+}
+
+.this_is_dashed {
+    border: 1px dashed #737373; 
+    margin-top: 55px;
+}
+
+.idi1 {
+    margin-left:-180px;
+}
+
+.idi1 li {
+    display: inherit;
+    padding: 6px;
+}
+
+.idi1 li a {
+    color: #737373;
+}
+
+.black-color {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 11px;
+    cursor: pointer;
+}
