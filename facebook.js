@@ -66,5 +66,7 @@ window.onclick = function(event) {
     }
 }
 
- 
+document.querySelector('.close_modal').addEventListener('click', function() {
+  document.querySelector('.bg_modal').style.display = 'none'; 
+}); 
 

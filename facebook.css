@@ -555,3 +555,63 @@ button img {
     margin-top: 10px; 
     font-size: 11px;
 }
+
+.idi3 {
+    margin-left: 170px;
+    margin-top: -551px;
+}
+
+.idi3 li{
+    display: inherit;
+    margin-top: 10px;
+    font-size: 11px; 
+}
+
+.idi4 {
+    margin-left: 320px;
+    margin-top: -551px;
+}
+
+.idi4 li {
+    display: inherit;
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+.idi5 {
+    margin-left: 450px;
+    margin-top: -551px;
+}
+
+.idi5 li{
+    display: inherit;
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+.close_space {
+    border: 2px solid #ccc;
+    height: 50px;
+    margin-top: 91px;
+    background-color: #f2f2f2;
+}
+
+.close_modal {
+    float: right;
+    width: 53px;
+    height: 30px;
+    position: relative;
+    right: 7px;
+    top: 10px;
+    background-color: #4267b2;
+    color: white;
+    border: #4267b2;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.close_modal:hover {
+    border: #ccd0d5;
+    background-color: #385898;
+}
