@@ -1,404 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="facebook.css">
-    <script src="facebook.js" async></script>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+   <link rel="stylesheet" href="facebook.css">
+   <script src="facebook.js" async></script>
 </head>
+
 <body>
 
-<div id="go">
+   <div id="go">
 
 
-<div class="title-face">    
-<p class="face"><a href="#"><img src="facebook.png"></a></p>
+      <div class="title-face">
+         <p class="face"><a href="#"><img src="facebook.png"></a></p>
 
-<div class="go_right">
-<form action="" method="post">  
-<p class="emailtele">Email ou telefone<br></p><input type="email" id ="sign_in"/>
-<p class="senha">Senha<br></p><input type="password" id ="sing_in_senha"/>
-<input type="submit" value="Log In" id="botao"/>
-<p>
-</p>
-<div class="esqueceu"><a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">Esqueceu a conta?</a></div>
-</form>
-</div>
-</div>
-
-<div class="going_down">
-
-<p id="face_texto"><strong>O Facebook ajuda você a se conectar e<br>compartilhar com as pessoas que fazem parte<br>da sua vida.</strong></p>
-
-<img src="faceboo_image.png">
-
-</div>
-
-<div class="abrir_conta">
-
- <h1>Abra uma conta</h1>
- <p class="rapido">É rapido e fácil</p>  
-
-<form name="form2" method="post" action="sign_up_facebook.php">
-   
- <input type="text" placeholder="Nome" id="nome" name="nome"/> 
- <input type="text" placeholder="Sobrenome" id="sobrenome" name="sobrenome"/>
- <input type="email" placeholder="Celular ou email" id="email" name="email"/>
- <input type="password" placeholder="Nova senha" id="senha" name="senha"/>
- <p class="data-title">data de nascimento</p>
-
- <div class="sel">
-
- <select id="date-birth" onclick="selected(this.value)">
-    <option value = "0">Day</option>
-    <option value = "1">1</option>
-    <option value = "2">2</option>  
-    <option value = "3">3</option>
-    <option value = "4">4</option>
-    <option value = "5">5</option>
-    <option value = "6">6</option>
-    <option value = "5">7</option> 
-    <option>8</option>
-    <option>9</option>
-    <option>10</option>
-    <option>11</option>
-    <option>12</option>
-    <option>13</option>
-    <option>14</option>
-    <option>15</option>
-    <option>16</option>
-    <option>17</option>
-    <option>18</option>
-    <option>19</option>
-    <option>20</option>
-    <option>21</option>
-    <option>22</option>
-    <option>23</option>
-    <option>24</option>
-    <option>25</option>
-    <option>26</option>
-    <option>27</option>
-    <option>28</option>
-    <option>29</option>
-    <option>30</option>
-    <option>31</option>
- </select> 
-
- <select id="month-birth" onclick="selected2(this.value)">
- <option value="0">Month</option>
- <option>Jan</option>
- <option>Feb</option>
- <option>Mar</option>
- <option>Apr</option>
- <option>May</option>
- <option>Jun</option>
- <option>Jul</option>
- <option>Aug</option>
- <option>Sep</option>
- <option>Oct</option>
- <option>Nov</option>
- <option>Dec</option>
-</select>
-
-<select id="year-birth" onclick="selected3(this.value)">
-   <option value="0">Year</option>
-   <option>2019</option>
-   <option>2018</option>
-   <option>2017</option>
-   <option>2016</option>
-   <option>2015</option>
-   <option>2014</option>
-   <option>2013</option>
-   <option>2012</option>
-   <option>2011</option>
-   <option>2010</option>
-   <option>2009</option>
-   <option>2008</option>
-   <option>2007</option>
-   <option>2006</option>
-   <option>2005</option>
-   <option>2004</option>
-   <option>2003</option>
-   <option>2002</option>
-   <option>2001</option>
-   <option>2000</option>
-   <option>1999</option>
-   <option>1998</option>
-   <option>1997</option>
-   <option>1996</option>
-   <option>1995</option>
-   <option>1994</option>
-   <option>1993</option>
-   <option>1992</option>
-   <option>1990</option>
-   <option>1989</option>
-   <option>1988</option>
-   <option>1987</option>
-   <option>1986</option>
-   <option>1985</option>
-   <option>1984</option>
-   <option>1983</option>
-   <option>1982</option>
-   <option>1981</option>
-   <option>1980</option>
-   <option>1979</option>
-   <option>1978</option>
-   <option>1977</option>
-   <option>1976</option>
-   <option>1975</option>
-</select>
-
-</div>
-
-<p class="gender">Gender</p>
-
-<div id="gender_type">
-
-<input type="radio" name="person" id="person"/>Female 
-&nbsp;
-<input type="radio" name="person" id="person2"/>Male
-
-</div>
-
-<div id="text_write">
-
-<p class="sms">By clicking Sign Up, you agree to our <a href="https://pt-br.facebook.com/legal/terms/update">Terms, Data Policy</a> and<br><a href="https://pt-br.facebook.com/policies/cookies/">Cookies Policy</a>. You may receive SMS Notifications from us and<br>can opt out any time.</p>
-
-</div>
-
-<input type="submit" name="submit" value="Sign Up" class="sign_button" onclick="sign_now()"/>
-
-<hr class="be_white">
-
-<a href="https://www.facebook.com/pages/creation/?ref_type=registration_form"><p id="blue-TEXT">Create a Page</p></a><p id="WHITE-TEXT">for a celebrity, band or business.</p>
-
-</form>
-
-</div>
-
-<div class="linguas">
-
-<ul id="ling">
-
-   <li><p><a href="https://www.facebook.com">English (US)</a></p></li>
-   <li><p id="space"><a href="#">Português (Brasil)</a></p></li>
-   <li><p id="space2"><a href="https://fr-fr.facebook.com/">Français (France)</a></p></li>
-   <li><p id="space3"><a href="https://it-it.facebook.com/">Italiano</a></p></li>
-   <li><p id="space4"><a href="https://de-de.facebook.com/">Deutsch</a></p></li>
-   <li><p id="space5"><a href="https://ar-ar.facebook.com/">العربية</a></p></li>
-   <li><p id="space6"><a href="https://hi-in.facebook.com/">हिन्दी</a></p></li>
-   <li><p id="space7"><a href="https://zh-cn.facebook.com/">中文(简体)</a></p></li>
-   <li><p id="space8"><a href="https://ja-jp.facebook.com/">日本語</a></p></li>
-    
-</ul>
-
-<button id="more_ling"><img src="plus.png"></button>
-
-<hr>
-
-<ul>
-
-   <li><p id="some_links"><a href="https://pt-br.facebook.com/r.php">Cadastre-se</a></p></li>
-   <li><p id="some_links"><a href="https://pt-br.facebook.com/login/">Entrar</a></p></li>
-   <li><p id="some_links"><a href="https://www.messenger.com/">Messenger</a></p></li>
-   <li><p id="some_links"><a href="https://pt-br.facebook.com/lite/">Facebook Lite</a></p></li>
-   <li><p id="some_links"><a href="https://pt-br.facebook.com/watch/">Watch</a></p></li>
-   <li><p id="some_links"><a href="https://pt-br.facebook.com/directory/people/">Pessoas</a></p></li>
-   <li><p id="some_links"><a href="https://pt-br.facebook.com/directory/pages/">Páginas</a></p></li>
-   <li><p id="some_links"><a href="https://pt-br.facebook.com/pages/category/">Categorias de Página</a></p></li>
-   <li><p id="some_links"><a href="https://pt-br.facebook.com/places/">Locais</a></p></li>
-   <li><p id="some_links"><a href="https://www.facebook.com/games/">jogos</a></p></li>
-   <li><p id="some_links"><a href="https://pt-br.facebook.com/directory/places/">Locais</a></p></li>
-   <li><p id="some_links"><a href="https://pt-br.facebook.com/marketplace/">Marketplace</a></p></li>
-   <li><p id="some_links"><a href="https://pt-br.facebook.com/directory/groups/">Grupos</a></p></li>
-
-</ul>
-
-<ul>
-    
-   <li><p id="some_links2"><a href="https://www.instagram.com/">Instagram</a></p></li>
-   <li><p id="some_links2"><a href="https://pt-br.facebook.com/local/lists/245019872666104/">Local</a></p></li>
-   <li><p id="some_links2"><a href="https://pt-br.facebook.com/fundraisers/">Campanhas de arrecadação de fundos</a></p></li>
-   <li><p id="some_links2"><a href="https://pt-br.facebook.com/biz/directory/">Serviços</a></p></li>
-   <li><p id="some_links2"><a href="https://www.facebook.com/facebookapp">Sobre</a></p></li>
-   <li><p id="some_links2"><a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fpt-br.facebook.com%2Fads%2Fcreate%2F%3Fcampaign_id%3D402047449186%26placement%3Dpflo%26extra_1%3Dnot-admgr-user">Criar anúncio</a></p></li>
-   <li><p id="some_links2"><a href="https://www.facebook.com/pages/creation/?ref_type=site_footer">Criar Página</a></p></li>
-   <li><p id="some_links2"><a href="https://developers.facebook.com/?ref=pf">Desenvolvedores</a></p></li> 
-   <li><p id="some_links2"><a href="https://pt-br.facebook.com/careers/?ref=pf">Carreiras</a></p></li>
-   <li><p id="some_links2"><a href="https://pt-br.facebook.com/privacy/explanation">Privacidade</a></p></li>
-   <li><p id="some_links2"><a href="https://pt-br.facebook.com/policies/cookies/">Cookies</a></p></li>
-
-</ul>
- 
-<ul>
-
-   <li><p id="some_links3"><a href="https://www.facebook.com/help/568137493302217">Opções de anúncio</a></p></li>
-   <li><p id="some_links3"><a href="https://pt-br.facebook.com/policies?ref=pf">Termos</a></p></li>
-   <li><p id="some_links3"><a href="https://pt-br.facebook.com/help/?ref=pf">Ajuda</a></p></li>
-
-</ul>
-
-<p class="date_of_the_year">Facebook © 2019</p>
-
-</div>
-
-</div>
-
-<!-- Modal -->
-
-<div class="bg_modal">
-   <div class="modal_body">
-      <div class="selecione">
-         <p id="title_idioma_fix">Selecione o seu idioma</p>
+         <div class="go_right">
+            <form action="" method="post">
+               <p class="emailtele">Email ou telefone<br></p><input type="email" id="sign_in" />
+               <p class="senha">Senha<br></p><input type="password" id="sing_in_senha" />
+               <input type="submit" value="Log In" id="botao" />
+               <p>
+               </p>
+               <div class="esqueceu"><a
+                     href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">Esqueceu a
+                     conta?</a></div>
+            </form>
+         </div>
       </div>
-      <div class="idiomas_sugeridos">
-         <p class="idi">Idiomas sugeridos</p>
-      <div class="idi_fix">   
-         <ul class="idi_sugeridos">
-            <li><a href="#">Português (Brasil)</a></li>
-            <li id="eng"><a href="https://www.facebook.com">English (US)</a></li>
-            <li><a href="https://es-la.facebook.com/">Español</a></li>
-            <li><a href="https://fr-fr.facebook.com/">Français (France)</a></li>
+
+      <div class="going_down">
+
+         <p id="face_texto"><strong>O Facebook ajuda você a se conectar e<br>compartilhar com as pessoas que fazem
+               parte<br>da sua vida.</strong></p>
+
+         <img src="faceboo_image.png">
+
+      </div>
+
+      <div class="abrir_conta">
+
+         <h1>Abra uma conta</h1>
+         <p class="rapido">É rapido e fácil</p>
+
+         <form name="form2" method="post" action="sign_up_facebook.php">
+
+            <input type="text" placeholder="Nome" id="nome" name="nome" />
+            <input type="text" placeholder="Sobrenome" id="sobrenome" name="sobrenome" />
+            <input type="email" placeholder="Celular ou email" id="email" name="email" />
+            <input type="password" placeholder="Nova senha" id="senha" name="senha" />
+            <p class="data-title">data de nascimento</p>
+
+            <div class="sel">
+
+               <select id="date-birth" onclick="selected(this.value)">
+                  <option value="0">Day</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="5">7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                  <option>13</option>
+                  <option>14</option>
+                  <option>15</option>
+                  <option>16</option>
+                  <option>17</option>
+                  <option>18</option>
+                  <option>19</option>
+                  <option>20</option>
+                  <option>21</option>
+                  <option>22</option>
+                  <option>23</option>
+                  <option>24</option>
+                  <option>25</option>
+                  <option>26</option>
+                  <option>27</option>
+                  <option>28</option>
+                  <option>29</option>
+                  <option>30</option>
+                  <option>31</option>
+               </select>
+
+               <select id="month-birth" onclick="selected2(this.value)">
+                  <option value="0">Month</option>
+                  <option>Jan</option>
+                  <option>Feb</option>
+                  <option>Mar</option>
+                  <option>Apr</option>
+                  <option>May</option>
+                  <option>Jun</option>
+                  <option>Jul</option>
+                  <option>Aug</option>
+                  <option>Sep</option>
+                  <option>Oct</option>
+                  <option>Nov</option>
+                  <option>Dec</option>
+               </select>
+
+               <select id="year-birth" onclick="selected3(this.value)">
+                  <option value="0">Year</option>
+                  <option>2019</option>
+                  <option>2018</option>
+                  <option>2017</option>
+                  <option>2016</option>
+                  <option>2015</option>
+                  <option>2014</option>
+                  <option>2013</option>
+                  <option>2012</option>
+                  <option>2011</option>
+                  <option>2010</option>
+                  <option>2009</option>
+                  <option>2008</option>
+                  <option>2007</option>
+                  <option>2006</option>
+                  <option>2005</option>
+                  <option>2004</option>
+                  <option>2003</option>
+                  <option>2002</option>
+                  <option>2001</option>
+                  <option>2000</option>
+                  <option>1999</option>
+                  <option>1998</option>
+                  <option>1997</option>
+                  <option>1996</option>
+                  <option>1995</option>
+                  <option>1994</option>
+                  <option>1993</option>
+                  <option>1992</option>
+                  <option>1990</option>
+                  <option>1989</option>
+                  <option>1988</option>
+                  <option>1987</option>
+                  <option>1986</option>
+                  <option>1985</option>
+                  <option>1984</option>
+                  <option>1983</option>
+                  <option>1982</option>
+                  <option>1981</option>
+                  <option>1980</option>
+                  <option>1979</option>
+                  <option>1978</option>
+                  <option>1977</option>
+                  <option>1976</option>
+                  <option>1975</option>
+               </select>
+
+            </div>
+
+            <p class="gender">Gender</p>
+
+            <div id="gender_type">
+
+               <input type="radio" name="person" id="person" />Female
+               &nbsp;
+               <input type="radio" name="person" id="person2" />Male
+
+            </div>
+
+            <div id="text_write">
+
+               <p class="sms">By clicking Sign Up, you agree to our <a
+                     href="https://pt-br.facebook.com/legal/terms/update">Terms, Data Policy</a> and<br><a
+                     href="https://pt-br.facebook.com/policies/cookies/">Cookies Policy</a>. You may receive SMS
+                  Notifications from us and<br>can opt out any time.</p>
+
+            </div>
+
+            <input type="submit" name="submit" value="Sign Up" class="sign_button" onclick="sign_now()" />
+
+            <hr class="be_white">
+
+            <a href="https://www.facebook.com/pages/creation/?ref_type=registration_form">
+               <p id="blue-TEXT">Create a Page</p>
+            </a>
+            <p id="WHITE-TEXT">for a celebrity, band or business.</p>
+
+         </form>
+
+      </div>
+
+      <div class="linguas">
+
+         <ul id="ling">
+
+            <li>
+               <p><a href="https://www.facebook.com">English (US)</a></p>
+            </li>
+            <li>
+               <p id="space"><a href="#">Português (Brasil)</a></p>
+            </li>
+            <li>
+               <p id="space2"><a href="https://fr-fr.facebook.com/">Français (France)</a></p>
+            </li>
+            <li>
+               <p id="space3"><a href="https://it-it.facebook.com/">Italiano</a></p>
+            </li>
+            <li>
+               <p id="space4"><a href="https://de-de.facebook.com/">Deutsch</a></p>
+            </li>
+            <li>
+               <p id="space5"><a href="https://ar-ar.facebook.com/">العربية</a></p>
+            </li>
+            <li>
+               <p id="space6"><a href="https://hi-in.facebook.com/">हिन्दी</a></p>
+            </li>
+            <li>
+               <p id="space7"><a href="https://zh-cn.facebook.com/">中文(简体)</a></p>
+            </li>
+            <li>
+               <p id="space8"><a href="https://ja-jp.facebook.com/">日本語</a></p>
+            </li>
+
          </ul>
-      </div>
 
-      <div class="this_is_dashed"></div>
-      
-       <div class="idi1">
-          <ul>
-             <li class="black-color">Todos os idiomas</li>
-             <li><a href="#">África e Oriente Médio</a></li>
-             <li><a href="#">Américas</a></li>
-             <li><a href="#">Ásia-Pacífico</a></li>
-             <li><a href="#">Europa Oriental</a></li>
-             <li><a href="#">Europa Ocidental</a></li>
-          </ul>
-       </div>
-        
-       <div class="idi2">
-            <ul>
-              <li><a href="https://so-so.facebook.com/">Af-Soomaali</a></li> 
-              <li><a href="https://af-za.facebook.com/">Afrikaans</a></li> 
-              <li><a href="https://az-az.facebook.com/">Azərbaycan dili</a></li> 
-              <li><a href="https://id-id.facebook.com/">Bahasa Indonesia</a></li> 
-              <li><a href="https://ms-my.facebook.com/">Bahasa Melayu</a></li> 
-              <li><a href="https://jv-id.facebook.com/">Basa Jawa</a></li> 
-              <li><a href="https://cx-ph.facebook.com/">Bisaya</a></li> 
-              <li><a href="https://bs-ba.facebook.com/">Bosanski</a></li> 
-              <li><a href="https://br-fr.facebook.com/">Brezhoneg</a></li> 
-              <li><a href="https://ca-es.facebook.com/">Catalá</a></li>  
-              <li><a href="https://co-fr.facebook.com/">Corsu</a></li> 
-              <li><a href="https://cy-gb.facebook.com/">Cymraeg</a></li> 
-              <li><a href="https://da-dk.facebook.com/">Dansk</a></li> 
-              <li><a href="https://de-de.facebook.com/">Deutsch</a></li> 
-              <li><a href="https://et-ee.facebook.com/">Eesti</a></li> 
-              <li><a href="https://en-gb.facebook.com/">English (UK)</a></li> 
-              <li><a href="https://www.facebook.com/">English (US)</a></li> 
-              <li><a href="https://es-la.facebook.com/">Español</a></li> 
-              <li><a href="https://es-es.facebook.com/">Español (España)</a></li> 
-              <li><a href="https://eo-eo.facebook.com/">Esperanto</a></li> 
-              <li><a href="https://eu-es.facebook.com/">Euskara</a></li> 
-              <li><a href="https://tl-ph.facebook.com/">Filipino</a></li> 
-              <li><a href="https://fr-ca.facebook.com/">Français (Canada)</a></li> 
-              <li><a href="https://fr-fr.facebook.com/">Français (France)</a></li> 
-            </ul>
-         </div>
-          
-         <div class="idi3">
-              <ul>
-                 <li><a href="https://gl-es.facebook.com/">Galego</a></li>
-                 <li><a href="https://gn-py.facebook.com/">Guarani</a></li>
-                 <li><a href="https://ha-ng.facebook.com/">Hausa</a></li>
-                 <li><a href="https://hr-hr.facebook.com/">Hrvatski</a></li>
-                 <li><a href="https://rw-rw.facebook.com/">Ikinyarwanda</a></li>
-                 <li><a href="https://it-it.facebook.com/">Italiano</a></li>
-                 <li><a href="https://sw-ke.facebook.com/">Kiswahili</a></li>
-                 <li><a href="https://ht-ht.facebook.com/">Kreyòl Ayisyen</a></li>
-                 <li><a href="https://ku-tr.facebook.com/">Kurdî (Kurmancî)</a></li>
-                 <li><a href="https://lv-lv.facebook.com/">Latviešu</a></li>
-                 <li><a href="https://lt-lt.facebook.com/">Lietuvių</a></li>
-                 <li><a href="https://hu-hu.facebook.com/">Magyar</a></li>
-                 <li><a href="https://mg-mg.facebook.com/">Malagasy</a></li>
-                 <li><a href="https://mt-mt.facebook.com/">Malti</a></li>
-                 <li><a href="https://nl-nl.facebook.com/">Nederlands</a></li>
-                 <li><a href="https://nl-be.facebook.com/">Nederlands (België)</a></li>
-                 <li><a href="https://nb-no.facebook.com/">Norsk (bokmål)</a></li>
-                 <li><a href="https://nn-no.facebook.com/">Norsk (nynorsk)</a></li>
-                 <li><a href="https://uz-uz.facebook.com/">O'zbek</a></li>
-                 <li><a href="https://pl-pl.facebook.com/">Polski</a></li>
-                 <li><a href="#">Português (Brasil)</a></li>
-                 <li><a href="https://pt-pt.facebook.com/">Português (Portugal)</a></li>
-                 <li><a href="https://ro-ro.facebook.com/">Română</a></li>
-                 <li><a href="https://sc-it.facebook.com/">Sardu</a></li>
-              </ul>
-         </div>
-         
-         <div class="idi4">
-            <ul>
-               <li><a href="https://fi-fi.facebook.com/">Suomi</a></li>
-               <li><a href="https://sv-se.facebook.com/">Svenska</a></li>
-               <li><a href="https://vi-vn.facebook.com/">Tiếng Việt</a></li>
-               <li><a href="https://tr-tr.facebook.com/">Türkçe</a></li>
-               <li><a href="https://zz-tr.facebook.com/">Zaza</a></li>
-               <li><a href="https://is-is.facebook.com/">Íslenska</a></li>
-               <li><a href="https://cs-cz.facebook.com/">Čeština</a></li>
-               <li><a href="https://sz-pl.facebook.com/">ślōnskŏ gŏdka</a></li>
-               <li><a href="https://el-gr.facebook.com/">Ελληνικά</a></li>
-               <li><a href="https://be-by.facebook.com/">Беларуская</a></li>
-               <li><a href="https://bg-bg.facebook.com/">Български</a></li>
-               <li><a href="https://mk-mk.facebook.com/">Македонски</a></li>
-               <li><a href="https://mn-mn.facebook.com/">Монгол</a></li>
-               <li><a href="https://ru-ru.facebook.com/">Русский</a></li>
-               <li><a href="https://sr-rs.facebook.com/">Српски</a></li>
-               <li><a href="https://tt-ru.facebook.com/">Татарча</a></li>
-               <li><a href="https://tg-tj.facebook.com/">Тоҷикӣ</a></li>
-               <li><a href="https://uk-ua.facebook.com/">Українська</a></li>
-               <li><a href="https://ky-kg.facebook.com/">кыргызча</a></li>
-               <li><a href="https://kk-kz.facebook.com/">Қазақша</a></li>
-               <li><a href="https://hy-am.facebook.com/">Հայերեն</a></li>
-               <li><a href="https://he-il.facebook.com/">‏עברית‏</a></li>
-               <li><a href="https://ur-pk.facebook.com/">‏اردو‏</a></li>
-               <li><a href="https://ar-ar.facebook.com/">‏العربية‏</a></li>
-            </ul>
-       </div>
-         
-       <div class="idi5">
+         <button id="more_ling"><img src="plus.png"></button>
+
+         <hr>
+
          <ul>
-            <li><a href="https://ne-np.facebook.com/">नेपाली</a></li>
-            <li><a href="https://mr-in.facebook.com/">मराठी</a></li>
-            <li><a href="https://hi-in.facebook.com/">हिन्दी</a></li>
-            <li><a href="https://as-in.facebook.com/">অসমীয়া</a></li>
-            <li><a href="https://bn-in.facebook.com/">বাংলা</a></li>
-            <li><a href="https://pa-in.facebook.com/">ਪੰਜਾਬੀ</a></li>
-            <li><a href="https://gu-in.facebook.com/">ગુજરાતી</a></li>
-            <li><a href="https://or-in.facebook.com/">ଓଡ଼ିଆ</a></li>
-            <li><a href="https://ta-in.facebook.com/">தமிழ்</a></li>
-            <li><a href="https://te-in.facebook.com/">తెలుగు</a></li>
-            <li><a href="https://kn-in.facebook.com/">ಕನ್ನಡ</a></li>
-            <li><a href="https://ml-in.facebook.com/">മലയാളം</a></li>
-            <li><a href="https://si-lk.facebook.com/">සිංහල</a></li>
-            <li><a href="https://th-th.facebook.com/">ภาษาไทย</a></li>
-            <li><a href="https://lo-la.facebook.com/">ພາສາລາວ</a></li>
-            <li><a href="https://my-mm.facebook.com/">မြန်မာဘာသာ</a></li>
-            <li><a href="https://ka-ge.facebook.com/">ქართული</a></li>
-            <li><a href="https://am-et.facebook.com/">አማርኛ</a></li>
-            <li><a href="https://km-kh.facebook.com/">ភាសាខ្មែរ</a></li>
-            <li><a href="https://tz-ma.facebook.com/">ⵜⴰⵎⴰⵣⵉⵖⵜ</a></li>
-            <li><a href="https://zh-tw.facebook.com/">中文(台灣)</a></li> 
+
+            <li>
+               <p id="some_links"><a href="https://pt-br.facebook.com/r.php">Cadastre-se</a></p>
+            </li>
+            <li>
+               <p id="some_links"><a href="https://pt-br.facebook.com/login/">Entrar</a></p>
+            </li>
+            <li>
+               <p id="some_links"><a href="https://www.messenger.com/">Messenger</a></p>
+            </li>
+            <li>
+               <p id="some_links"><a href="https://pt-br.facebook.com/lite/">Facebook Lite</a></p>
+            </li>
+            <li>
+               <p id="some_links"><a href="https://pt-br.facebook.com/watch/">Watch</a></p>
+            </li>
+            <li>
+               <p id="some_links"><a href="https://pt-br.facebook.com/directory/people/">Pessoas</a></p>
+            </li>
+            <li>
+               <p id="some_links"><a href="https://pt-br.facebook.com/directory/pages/">Páginas</a></p>
+            </li>
+            <li>
+               <p id="some_links"><a href="https://pt-br.facebook.com/pages/category/">Categorias de Página</a></p>
+            </li>
+            <li>
+               <p id="some_links"><a href="https://pt-br.facebook.com/places/">Locais</a></p>
+            </li>
+            <li>
+               <p id="some_links"><a href="https://www.facebook.com/games/">jogos</a></p>
+            </li>
+            <li>
+               <p id="some_links"><a href="https://pt-br.facebook.com/directory/places/">Locais</a></p>
+            </li>
+            <li>
+               <p id="some_links"><a href="https://pt-br.facebook.com/marketplace/">Marketplace</a></p>
+            </li>
+            <li>
+               <p id="some_links"><a href="https://pt-br.facebook.com/directory/groups/">Grupos</a></p>
+            </li>
+
          </ul>
-    </div>  
-    
-    <div class="close_space">
-     <input type="button" value="fechar" class="close_modal"/>
-    </div>
+
+         <ul>
+
+            <li>
+               <p id="some_links2"><a href="https://www.instagram.com/">Instagram</a></p>
+            </li>
+            <li>
+               <p id="some_links2"><a href="https://pt-br.facebook.com/local/lists/245019872666104/">Local</a></p>
+            </li>
+            <li>
+               <p id="some_links2"><a href="https://pt-br.facebook.com/fundraisers/">Campanhas de arrecadação de
+                     fundos</a></p>
+            </li>
+            <li>
+               <p id="some_links2"><a href="https://pt-br.facebook.com/biz/directory/">Serviços</a></p>
+            </li>
+            <li>
+               <p id="some_links2"><a href="https://www.facebook.com/facebookapp">Sobre</a></p>
+            </li>
+            <li>
+               <p id="some_links2"><a
+                     href="https://www.facebook.com/login.php?next=https%3A%2F%2Fpt-br.facebook.com%2Fads%2Fcreate%2F%3Fcampaign_id%3D402047449186%26placement%3Dpflo%26extra_1%3Dnot-admgr-user">Criar
+                     anúncio</a></p>
+            </li>
+            <li>
+               <p id="some_links2"><a href="https://www.facebook.com/pages/creation/?ref_type=site_footer">Criar
+                     Página</a></p>
+            </li>
+            <li>
+               <p id="some_links2"><a href="https://developers.facebook.com/?ref=pf">Desenvolvedores</a></p>
+            </li>
+            <li>
+               <p id="some_links2"><a href="https://pt-br.facebook.com/careers/?ref=pf">Carreiras</a></p>
+            </li>
+            <li>
+               <p id="some_links2"><a href="https://pt-br.facebook.com/privacy/explanation">Privacidade</a></p>
+            </li>
+            <li>
+               <p id="some_links2"><a href="https://pt-br.facebook.com/policies/cookies/">Cookies</a></p>
+            </li>
+
+         </ul>
+
+         <ul>
+
+            <li>
+               <p id="some_links3"><a href="https://www.facebook.com/help/568137493302217">Opções de anúncio</a></p>
+            </li>
+            <li>
+               <p id="some_links3"><a href="https://pt-br.facebook.com/policies?ref=pf">Termos</a></p>
+            </li>
+            <li>
+               <p id="some_links3"><a href="https://pt-br.facebook.com/help/?ref=pf">Ajuda</a></p>
+            </li>
+
+         </ul>
+
+         <p class="date_of_the_year">Facebook © 2019</p>
 
       </div>
 
    </div>
 
-</div>
+   <!-- Modal -->
+
+   <div class="bg_modal">
+      <div class="modal_body">
+         <div class="selecione">
+            <p id="title_idioma_fix">Selecione o seu idioma</p>
+         </div>
+         <div class="idiomas_sugeridos">
+            <p class="idi">Idiomas sugeridos</p>
+            <div class="idi_fix">
+               <ul class="idi_sugeridos">
+                  <li><a href="#">Português (Brasil)</a></li>
+                  <li id="eng"><a href="https://www.facebook.com">English (US)</a></li>
+                  <li><a href="https://es-la.facebook.com/">Español</a></li>
+                  <li><a href="https://fr-fr.facebook.com/">Français (France)</a></li>
+               </ul>
+            </div>
+
+            <div class="this_is_dashed"></div>
+
+            <div class="idi1">
+               <ul>
+                  <li class="black-color">Todos os idiomas</li>
+                  <li><a href="#">África e Oriente Médio</a></li>
+                  <li><a href="#">Américas</a></li>
+                  <li><a href="#">Ásia-Pacífico</a></li>
+                  <li><a href="#">Europa Oriental</a></li>
+                  <li><a href="#">Europa Ocidental</a></li>
+               </ul>
+            </div>
+
+            <div class="idi2">
+               <ul>
+                  <li><a href="https://so-so.facebook.com/">Af-Soomaali</a></li>
+                  <li><a href="https://af-za.facebook.com/">Afrikaans</a></li>
+                  <li><a href="https://az-az.facebook.com/">Azərbaycan dili</a></li>
+                  <li><a href="https://id-id.facebook.com/">Bahasa Indonesia</a></li>
+                  <li><a href="https://ms-my.facebook.com/">Bahasa Melayu</a></li>
+                  <li><a href="https://jv-id.facebook.com/">Basa Jawa</a></li>
+                  <li><a href="https://cx-ph.facebook.com/">Bisaya</a></li>
+                  <li><a href="https://bs-ba.facebook.com/">Bosanski</a></li>
+                  <li><a href="https://br-fr.facebook.com/">Brezhoneg</a></li>
+                  <li><a href="https://ca-es.facebook.com/">Catalá</a></li>
+                  <li><a href="https://co-fr.facebook.com/">Corsu</a></li>
+                  <li><a href="https://cy-gb.facebook.com/">Cymraeg</a></li>
+                  <li><a href="https://da-dk.facebook.com/">Dansk</a></li>
+                  <li><a href="https://de-de.facebook.com/">Deutsch</a></li>
+                  <li><a href="https://et-ee.facebook.com/">Eesti</a></li>
+                  <li><a href="https://en-gb.facebook.com/">English (UK)</a></li>
+                  <li><a href="https://www.facebook.com/">English (US)</a></li>
+                  <li><a href="https://es-la.facebook.com/">Español</a></li>
+                  <li><a href="https://es-es.facebook.com/">Español (España)</a></li>
+                  <li><a href="https://eo-eo.facebook.com/">Esperanto</a></li>
+                  <li><a href="https://eu-es.facebook.com/">Euskara</a></li>
+                  <li><a href="https://tl-ph.facebook.com/">Filipino</a></li>
+                  <li><a href="https://fr-ca.facebook.com/">Français (Canada)</a></li>
+                  <li><a href="https://fr-fr.facebook.com/">Français (France)</a></li>
+               </ul>
+            </div>
+
+            <div class="idi3">
+               <ul>
+                  <li><a href="https://gl-es.facebook.com/">Galego</a></li>
+                  <li><a href="https://gn-py.facebook.com/">Guarani</a></li>
+                  <li><a href="https://ha-ng.facebook.com/">Hausa</a></li>
+                  <li><a href="https://hr-hr.facebook.com/">Hrvatski</a></li>
+                  <li><a href="https://rw-rw.facebook.com/">Ikinyarwanda</a></li>
+                  <li><a href="https://it-it.facebook.com/">Italiano</a></li>
+                  <li><a href="https://sw-ke.facebook.com/">Kiswahili</a></li>
+                  <li><a href="https://ht-ht.facebook.com/">Kreyòl Ayisyen</a></li>
+                  <li><a href="https://ku-tr.facebook.com/">Kurdî (Kurmancî)</a></li>
+                  <li><a href="https://lv-lv.facebook.com/">Latviešu</a></li>
+                  <li><a href="https://lt-lt.facebook.com/">Lietuvių</a></li>
+                  <li><a href="https://hu-hu.facebook.com/">Magyar</a></li>
+                  <li><a href="https://mg-mg.facebook.com/">Malagasy</a></li>
+                  <li><a href="https://mt-mt.facebook.com/">Malti</a></li>
+                  <li><a href="https://nl-nl.facebook.com/">Nederlands</a></li>
+                  <li><a href="https://nl-be.facebook.com/">Nederlands (België)</a></li>
+                  <li><a href="https://nb-no.facebook.com/">Norsk (bokmål)</a></li>
+                  <li><a href="https://nn-no.facebook.com/">Norsk (nynorsk)</a></li>
+                  <li><a href="https://uz-uz.facebook.com/">O'zbek</a></li>
+                  <li><a href="https://pl-pl.facebook.com/">Polski</a></li>
+                  <li><a href="#">Português (Brasil)</a></li>
+                  <li><a href="https://pt-pt.facebook.com/">Português (Portugal)</a></li>
+                  <li><a href="https://ro-ro.facebook.com/">Română</a></li>
+                  <li><a href="https://sc-it.facebook.com/">Sardu</a></li>
+               </ul>
+            </div>
+
+            <div class="idi4">
+               <ul>
+                  <li><a href="https://fi-fi.facebook.com/">Suomi</a></li>
+                  <li><a href="https://sv-se.facebook.com/">Svenska</a></li>
+                  <li><a href="https://vi-vn.facebook.com/">Tiếng Việt</a></li>
+                  <li><a href="https://tr-tr.facebook.com/">Türkçe</a></li>
+                  <li><a href="https://zz-tr.facebook.com/">Zaza</a></li>
+                  <li><a href="https://is-is.facebook.com/">Íslenska</a></li>
+                  <li><a href="https://cs-cz.facebook.com/">Čeština</a></li>
+                  <li><a href="https://sz-pl.facebook.com/">ślōnskŏ gŏdka</a></li>
+                  <li><a href="https://el-gr.facebook.com/">Ελληνικά</a></li>
+                  <li><a href="https://be-by.facebook.com/">Беларуская</a></li>
+                  <li><a href="https://bg-bg.facebook.com/">Български</a></li>
+                  <li><a href="https://mk-mk.facebook.com/">Македонски</a></li>
+                  <li><a href="https://mn-mn.facebook.com/">Монгол</a></li>
+                  <li><a href="https://ru-ru.facebook.com/">Русский</a></li>
+                  <li><a href="https://sr-rs.facebook.com/">Српски</a></li>
+                  <li><a href="https://tt-ru.facebook.com/">Татарча</a></li>
+                  <li><a href="https://tg-tj.facebook.com/">Тоҷикӣ</a></li>
+                  <li><a href="https://uk-ua.facebook.com/">Українська</a></li>
+                  <li><a href="https://ky-kg.facebook.com/">кыргызча</a></li>
+                  <li><a href="https://kk-kz.facebook.com/">Қазақша</a></li>
+                  <li><a href="https://hy-am.facebook.com/">Հայերեն</a></li>
+                  <li><a href="https://he-il.facebook.com/">‏עברית‏</a></li>
+                  <li><a href="https://ur-pk.facebook.com/">‏اردو‏</a></li>
+                  <li><a href="https://ar-ar.facebook.com/">‏العربية‏</a></li>
+               </ul>
+            </div>
+
+            <div class="idi5">
+               <ul>
+                  <li><a href="https://ne-np.facebook.com/">नेपाली</a></li>
+                  <li><a href="https://mr-in.facebook.com/">मराठी</a></li>
+                  <li><a href="https://hi-in.facebook.com/">हिन्दी</a></li>
+                  <li><a href="https://as-in.facebook.com/">অসমীয়া</a></li>
+                  <li><a href="https://bn-in.facebook.com/">বাংলা</a></li>
+                  <li><a href="https://pa-in.facebook.com/">ਪੰਜਾਬੀ</a></li>
+                  <li><a href="https://gu-in.facebook.com/">ગુજરાતી</a></li>
+                  <li><a href="https://or-in.facebook.com/">ଓଡ଼ିଆ</a></li>
+                  <li><a href="https://ta-in.facebook.com/">தமிழ்</a></li>
+                  <li><a href="https://te-in.facebook.com/">తెలుగు</a></li>
+                  <li><a href="https://kn-in.facebook.com/">ಕನ್ನಡ</a></li>
+                  <li><a href="https://ml-in.facebook.com/">മലയാളം</a></li>
+                  <li><a href="https://si-lk.facebook.com/">සිංහල</a></li>
+                  <li><a href="https://th-th.facebook.com/">ภาษาไทย</a></li>
+                  <li><a href="https://lo-la.facebook.com/">ພາສາລາວ</a></li>
+                  <li><a href="https://my-mm.facebook.com/">မြန်မာဘာသာ</a></li>
+                  <li><a href="https://ka-ge.facebook.com/">ქართული</a></li>
+                  <li><a href="https://am-et.facebook.com/">አማርኛ</a></li>
+                  <li><a href="https://km-kh.facebook.com/">ភាសាខ្មែរ</a></li>
+                  <li><a href="https://tz-ma.facebook.com/">ⵜⴰⵎⴰⵣⵉⵖⵜ</a></li>
+                  <li><a href="https://zh-tw.facebook.com/">中文(台灣)</a></li>
+               </ul>
+            </div>
+
+            <div class="close_space">
+               <input type="button" value="fechar" class="close_modal" />
+            </div>
+
+         </div>
+
+      </div>
+
+   </div>
 
 </body>
+
 </html>
