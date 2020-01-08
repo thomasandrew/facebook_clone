@@ -17,12 +17,14 @@
 <p class="face"><a href="#"><img src="facebook.png"></a></p>
 
 <div class="go_right">
+<form action="" method="post">  
 <p class="emailtele">Email ou telefone<br></p><input type="email" id ="sign_in"/>
 <p class="senha">Senha<br></p><input type="password" id ="sing_in_senha"/>
 <input type="submit" value="Log In" id="botao"/>
 <p>
 </p>
 <div class="esqueceu"><a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">Esqueceu a conta?</a></div>
+</form>
 </div>
 </div>
 
@@ -39,7 +41,7 @@
  <h1>Abra uma conta</h1>
  <p class="rapido">É rapido e fácil</p>  
 
-<form name="form2" method="post" action="facebook.php">
+<form name="form2" method="post" action="sign_up_facebook.php">
    
  <input type="text" placeholder="Nome" id="nome" name="nome"/> 
  <input type="text" placeholder="Sobrenome" id="sobrenome" name="sobrenome"/>
@@ -49,8 +51,8 @@
 
  <div class="sel">
 
- <select id="date-birth">
-    <option value = "Day">Day</option>
+ <select id="date-birth" onclick="selected(this.value)">
+    <option value = "0">Day</option>
     <option value = "1">1</option>
     <option value = "2">2</option>  
     <option value = "3">3</option>
@@ -84,7 +86,7 @@
     <option>31</option>
  </select> 
 
- <select id="month-birth">
+ <select id="month-birth" onclick="selected2(this.value)">
  <option>Month</option>
  <option>Jan</option>
  <option>Feb</option>
@@ -100,7 +102,7 @@
  <option>Dec</option>
 </select>
 
-<select id="year-birth">
+<select id="year-birth" onclick="selected3(this.value)">
    <option>Year</option>
    <option>2019</option>
    <option>2018</option>
@@ -166,7 +168,7 @@
 
 </div>
 
-<input type="button" value="Sign Up" class="sign_button" onclick="sign_now()"/>
+<input type="submit" name="submit" value="Sign Up" class="sign_button" onclick="sign_now()"/>
 
 <hr class="be_white">
 
