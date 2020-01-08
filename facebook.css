@@ -269,6 +269,10 @@ h1 {
     cursor: pointer;
 }
 
+.sign_button:hover {
+    background: linear-gradient(#79bc64, #578843);
+} 
+
 #blue-TEXT {
     color:#3b5998;
     text-align:right;
